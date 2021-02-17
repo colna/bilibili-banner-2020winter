@@ -2,7 +2,7 @@ import ReactDOM from "react-dom";
 import { Route, Switch ,BrowserRouter} from "react-router-dom";
 import { Provider} from 'react-redux';
 
-import './assets/index.less'
+import './assets/index.scss'
 
 import store from "./redux/store";
 import Main from "./containers/main/main";

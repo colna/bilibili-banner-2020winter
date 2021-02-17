@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 
-import './main.less'
+import './main.scss'
 
+import Banner from '../../components/banner/banner';
 export default class Main extends Component {
     render() {
         return (
-            <div>Main</div>
+            <div>Main
+                <Banner/>
+            </div>
         )
     }
 }
